@@ -23,7 +23,8 @@ void create() {
 		cout << "  " << board[i][0] << "  |" << "  " << board[i][1] << "  |" << "  " << board[i][2] << "  " << endl; 
 		cout << "     |     |     " << endl;
 
-	}}
+	}
+}
 void getInput() {
 	int digit;
 	if (token == 'X') {
@@ -63,7 +64,7 @@ void getInput() {
 	else if (digit == 6) {
 		row = 1;
 		column = 2;
-		}
+	}
 	else if (digit == 7) {
 		row = 2;
 		column = 0;
